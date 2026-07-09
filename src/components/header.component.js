@@ -15,10 +15,6 @@ class HeaderComponent {
     const cartCountText = await cartBadge.getText();
     return parseInt(cartCountText, 10);
   }
-
-  async openMenu() {
-    //TO DO: Implement the method to open the menu
-  }
 }
 
 export default new HeaderComponent();
